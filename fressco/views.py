@@ -9,3 +9,6 @@ def dashboard(request):
 
 def login(request):
     return render(request, 'fressco/login.html')
+    
+def test(request):
+    return render(request, 'fressco/test.html')
