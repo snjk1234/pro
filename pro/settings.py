@@ -15,7 +15,6 @@ from pathlib import Path
 from tkinter.messagebox import QUESTION
 from django.utils import timezone
 
-from fressco.models import Question
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -35,7 +34,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'fressco.app',
+    'fressco',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
