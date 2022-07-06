@@ -12,3 +12,4 @@ def login(request):
     
 def test(request):
     return render(request, 'fressco/test.html')
+    #omar
