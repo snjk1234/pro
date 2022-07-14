@@ -36,6 +36,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'fressco.apps.FresscoConfig',
     'market.apps.MarketConfig',
+    'omar.apps.OmarConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
