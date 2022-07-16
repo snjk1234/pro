@@ -4,4 +4,4 @@ from django.http import HttpResponseRedirect
 from django.urls import reverse
 
 def go(request):
-    return render(request,'market/go.html')
+    return render(request,'go.html')
