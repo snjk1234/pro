@@ -18,7 +18,8 @@ from django.contrib import admin
 from django.urls import path , include
 
 urlpatterns = [
-    path('', include('fressco.urls')),
-    path('go/',include('market.urls'))
+    path('fressco/', include('fressco.urls')),
+    path('market/',include('market.urls')),
+    
     #path('admin/', admin.site.urls),
 ]

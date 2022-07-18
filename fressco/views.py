@@ -2,11 +2,10 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 
+#def login(request):
+    #return HttpResponseRedirect(reverse('login'))
 def index(request):
-    return HttpResponseRedirect(reverse('login'))
     return render(request,'fressco/index.html')
-# Create your views here.
-
 def dashboard(request):
     return render(request, 'fressco/dashboard.html')
 
@@ -15,4 +14,3 @@ def login(request):
     
 def test(request):
     return render(request, 'fressco/test.html')
-    #omar
